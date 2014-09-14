@@ -1,0 +1,10 @@
+{
+  "name": "imdb_scraper",
+  "version": "0.0.0",
+  "description": "Scraping IMDB with node",
+  "dependencies": {
+    "express": "~4.9.0",
+    "request": "~2.42.0",
+    "cheerio": "~0.17.0"
+  }
+}
