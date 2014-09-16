@@ -4,7 +4,7 @@ First experience scraping with node, express, request and cheerio.
 Clone this repository, then run
 
     npm install
-    
+ 
 to install this script's dependencies.
 
 Run the server with
@@ -26,4 +26,15 @@ You can then try to read that data. For example using Python.
 should return something like this:
 
     {'title': 'The Matrix', 'rating': 8.7, 'release': 1999}
+
+##Optional Arguments
+
+To run the server on a different port, pass the number as an argument
+
+    node server.js 1337
+
+To write to results.json:
+
+    node server.js 1337 results.json
+
 
